@@ -1,0 +1,415 @@
+﻿a,address,b,big,blockquote,body,center,cite,code,dd,del,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,label,legend,li,ol,p,pre,small,span,strong,u,ul,var {
+	margin: 0;
+	padding: 0
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+	display: block
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0
+}
+
+button,html input[type=button],input[type=submit] {
+	-webkit-apperance: button;
+	cursor: pointer
+}
+
+button[disabled],html input[disabled] {
+	cursor: default
+}
+
+ol,ul {
+	list-style: none
+}
+
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+em,i,u {
+	font-style: normal
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.al {
+	text-align: left
+}
+
+.ac {
+	text-align: center
+}
+
+.ar {
+	text-align: right
+}
+
+.hide {
+	display: none
+}
+
+.clear,.clr {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.dorpdown {
+	position: relative
+}
+
+.dorpdown-layer {
+	display: none;
+	position: absolute
+}
+
+.dorpdown:hover .dorpdown-layer,.hover .dorpdown-layer {
+	display: block
+}
+
+.cw-icon {
+	position: relative;
+	cursor: default;
+	zoom: 1
+}
+
+.cw-icon .i,.cw-icon i {
+	display: block;
+	position: absolute;
+	overflow: hidden
+}
+
+.w {
+	width: 990px;
+	margin: 0 auto
+}
+
+.root61 .w {
+	width: 1210px
+}
+
+body {
+	font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+	color: #666;
+	background: #fff
+}
+
+a {
+	color: #666;
+	text-decoration: none
+}
+
+a:hover {
+	color: #C81623
+}
+
+.m,.mb,.mc,.mt,.p-detail,.p-img,.p-market,.p-name,.p-price,.sm,.smb,.smc,.smt {
+	overflow: hidden
+}
+
+body {
+	font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+	color: #666;
+	background: #fff;
+	font-size: 14px
+}
+
+button,input,select,textarea {
+	outline: 0
+}
+
+body,button,input,txt {
+	font-family: "Microsoft YaHei","Hiragino Sans GB"
+}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.header {
+	height: 110px;
+	background: url(../images/headbg.jpg) repeat-x left bottom
+}
+
+.root61 .w {
+	width: 1210px
+}
+
+.header .logo {
+    width: 186px;
+    height: 50px;
+    float: left;
+    margin-top: 28px;
+}
+
+.header .logo-title {
+	float: left;
+	height: 34px;
+	line-height: 34px;
+	font-size: 18px;
+	color: #000;
+	margin-left: 25px;
+	padding-left: 25px;
+	margin-top: 34px
+}
+
+.header .have-account {
+	font-size: 16px;
+	float: right;
+	margin-top: 55px;
+	color: #999
+}
+
+.header .have-account a {
+	color: #333
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.main {
+	margin: 50px auto 60px;
+	width: 830px
+}
+
+.reg-form {
+	width: 400px
+}
+
+.form-item-account {
+	z-index: 13
+}
+
+.form-item {
+	position: relative;
+	border: solid 1px #ddd;
+	width: 398px;
+	height: 52px;
+	z-index: 0
+}
+
+.form-item label {
+	float: left;
+	width: 90px;
+	height: 52px;
+	line-height: 52px;
+	padding-left: 20px
+}
+
+.form-item .field {
+	border: 0 none;
+	font-size: 14px;
+	width: 190px;
+	height: 19px;
+	padding-bottom: 11px;
+	padding-left: 20px;
+	padding-top: 16px
+}
+
+.form-item .i-status {
+	position: absolute;
+	display: none;
+	width: 16px;
+	height: 16px;
+	top: 20px;
+	right: 20px
+}
+
+.input-tip {
+	color: #c5c5c5;
+	height: 27px;
+	font-size: 12px;
+	padding-top: 5px
+}
+
+.item-phone-wrap {
+	height: 86px;
+	position: relative;
+	z-index: 2
+}
+
+.form-item-phone .select-country {
+	width: 104px;
+	padding: 0 0 0 20px;
+	height: 52px;
+	border: none;
+	color: #666;
+	border-right: solid 1px #ddd
+}
+
+.item-phone-wrap .orEmail {
+	position: absolute;
+	right: 0;
+	bottom: 10px
+}
+
+.form-item .form-authcode,.form-item .phonecode {
+	width: 150px
+}
+
+.form-item .img-code {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 110px;
+	height: 46px;
+	cursor: pointer
+}
+
+.form-item .form-authcode,.form-item .phonecode {
+	width: 150px
+}
+
+.btn-phonecode {
+	position: absolute;
+	right: 3px;
+	top: 3px;
+	width: 110px;
+	height: 46px;
+	border: none;
+	background: #f2f2f2;
+	color: #333;
+	padding: 0
+}
+
+.form-agreen {
+	color: #333;
+	font-size: 12px
+}
+
+.form-agreen input {
+	width: 18px;
+	height: 18px;
+	border: solid 1px #cfd1d3;
+	vertical-align: text-top;
+	padding: 0;
+	margin: 0;
+	margin-right: 10px
+}
+
+.btn-register {
+	width: 100%;
+	height: 54px;
+	color: #fff;
+	background: #008de8;
+	border: 0;
+	font-size: 16px;
+	font-family: "Microsoft YaHei","Hiragino Sans GB"
+}
+
+.reg-other {
+	float: left;
+	margin-left: 104px;
+	height: 605px;
+	padding-left: 90px;
+	border-left: solid 1px #e6e6e6
+}
+
+.reg-other .phone-fast-reg {
+	background: url(../images/phone.jpg) no-repeat;
+	width: 213px;
+	height: 270px
+}
+
+.reg-other .company-reg {
+	width: 160px;
+	height: 60px;
+	margin-top: 50px;
+	border-bottom: solid 1px #ddd;
+	margin-left: 30px
+}
+
+.reg-other .company-reg a {
+	display: block;
+	width: 160px;
+	height: 30px
+}
+
+.reg-other .company-reg a i {
+	display: inline-block;
+	width: 30px;
+	height: 29px;
+	vertical-align: middle;
+	margin-right: 15px
+}
+
+.i-company {
+	background-position: 0 -50px
+}
+
+.reg-other .company-reg a span {
+	vertical-align: middle
+}
+
+.reg-other .inter-cust {
+	width: 160px;
+	margin-left: 30px;
+	margin-top: 30px
+}
+
+.reg-other .inter-cust a {
+	display: block;
+	width: 170px;
+	height: 30px
+}
+
+.footer {
+	font-size: 12px;
+	text-align: center;
+	border-top: solid 1px #e6e6e6;
+	color: #999;
+	padding-bottom: 30px
+}
+
+.footer .links {
+	padding-top: 30px;
+	padding-bottom: 15px
+}
+
+.footer a {
+	color: #999;
+	margin: 0 10px
+}
+
+.input-tip span i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: text-top;
+	margin-right: 8px
+}
+
+.input-tip .error {
+	color: #e22
+}
