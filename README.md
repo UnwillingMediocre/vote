@@ -1,8 +1,8 @@
 # vote
 ## 在线投票系统
-前端：html、css、jquery、layer、 bootstrap
-后端：servlet
-加密技术：md5
+### 前端：html、css、jquery、layer、 bootstrap等
+### 后端：servlet md5 gson等
+### 页面展示
 1、登录注册
 ![](image/2.png)
 2、前台主页面
